@@ -760,6 +760,14 @@ const IconDenomInner: React.FC<{ denom: Denom | string }> = ({
       return <IconUNI />;
     case "yum":
       return <IconYUM />;
+    case "erqn":
+      return (
+        <img
+          className="icon-denom"
+          src="https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/erqn.svg"
+          alt="ERQN"
+        />
+      );
     default:
       return <IconCoinDefault />;
   }
