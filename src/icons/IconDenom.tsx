@@ -782,6 +782,14 @@ const IconDenomInner: React.FC<{ denom: Denom | string }> = ({
       return <IconUNI />;
     case "yum":
       return <img className="icon-denom" src={yum} alt="YUM" />;
+    case "auto_test":
+      return (
+        <img
+          className="icon-denom"
+          src="https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/auto_test.svg"
+          alt="AUTO_TEST"
+        />
+      );
     default:
       return <IconCoinDefault />;
   }
