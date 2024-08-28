@@ -807,6 +807,14 @@ const IconDenomInner: React.FC<{ denom: Denom | string }> = ({
       return <img className="icon-denom" src={yum} alt="YUM" />;
     case "coral":
       return <IconCORAL />;
+    case "lov":
+      return (
+        <img
+          className="icon-denom"
+          src="https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/lov.svg"
+          alt="LOV"
+        />
+      );
     default:
       return <IconCoinDefault />;
   }
